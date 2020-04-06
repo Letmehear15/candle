@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style/chooseCandle.css">
+    <title>Candle</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="choose__title">Выбор свечи</h1>
+        <span class="choose__sub">Вы хотите поставить свечу за:</span>
+        <form action="#">
+            <input type="checkbox" name="health" id="health"><label for="health">Здравие</label><br>
+            <input type="checkbox" name="calm" id="calm"><label for="calm">Упокой</label><br>
+            <input type="checkbox" name="study" id="study"><label for="study">Учебу</label><br>
+            <input type="checkbox" name="start" id="start"><label for="start">Зачатие</label><br>
+            <input type="checkbox" name="other" id="other"><label for="other">Иное</label>
+            <label for="text" class="text">
+                Если вы указали раздел иное
+                укажите, за что вы хотите 
+                поставить свечу
+            </label><br>
+            <textarea name="text" id="text" placeholder="Напишите комментарий"></textarea>
+            <button type="submit">Перейти к оплате</button>
+        </form>
+    </div>
+</body>
+</html>
