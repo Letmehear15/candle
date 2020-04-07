@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    height: 100vh;
+    background: url('../img/bgGif.gif') center center/ cover no-repeat;
+}
+.main__header {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    height: 100px;
+    background-color: rgba(8, 8, 8, 0.411);
+}
+.greeting {
+    color: #fff;
+    font-size: 20px;
+}
+.header__link {
+    display: block;
+    margin-right: 20px;
+    color: #fff;
+    text-decoration: none;
+}
+.ml {
+    margin-right: 0;
+    margin-left: 20px;
+    text-transform: uppercase;
+}
